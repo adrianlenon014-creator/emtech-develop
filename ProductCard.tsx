@@ -8,7 +8,7 @@ interface ProductCardProps {
   onAddToCart: (product: Product) => void;
 }
 
-export function ProductCard({ product, onAddToCart }: ProductCardProps) {
+export const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart }) => {
   const Icon = IconMap[product.icon] || IconMap['Code'];
 
   return (
