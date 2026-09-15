@@ -1,0 +1,6 @@
+{
+  "name": "Emtech Developers",
+  "description": "Premium digital programming and technology courses by Emtech.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
